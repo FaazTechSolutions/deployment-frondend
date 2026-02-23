@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 
-const apiTarget = process.env.VITE_API_URL ?? "http://localhost:3000";
+const apiTarget = process.env.VITE_API_URL ?? "https://529dadb6-platform4x-api.thanveer-apps.workers.dev";
 
 // Only proxy fetch/XHR requests to the API; let browser navigation
 // (Accept: text/html) fall through to Vite so the SPA index.html is served.
